@@ -35,3 +35,14 @@ Ele será usado para gerar solicitações para a aplicação Flask nos diferente
 5. Envie as métricas para uma ferramenta de monitoramento para visualização. Você pode fazer isso com OpenTelemetry e SigNoz, leia o artigo aqui.
 
 ![Descrição da imagem](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cbzf58qelvvm2tmb4mn6.png)
+
+
+
+
+Ao seguir o passo a passo do artigo, implementei um aplicativo Flask que expõe métricas no formato Prometheus. Para isso, utilizei a biblioteca prometheus_flask_exporter. O aplicativo Flask é uma parte essencial do processo, pois é responsável por gerar e fornecer essas métricas. Ao executar o aplicativo Flask, ele se torna acessível em determinados endpoints, onde as métricas podem ser coletadas.
+
+O processo envolveu a ativação de um ambiente virtual, a instalação das dependências necessárias, como Flask e prometheus_flask_exporter, e a inicialização do aplicativo Flask. Além disso, foi necessário iniciar um gerador para simular solicitações à aplicação Flask e garantir que as métricas estejam sendo geradas corretamente.
+
+Após a configuração e execução do aplicativo Flask, as métricas foram enviadas para uma ferramenta de monitoramento, como o Prometheus, para visualização e análise.
+
+Este processo demonstra como o Flask pode ser usado para criar e expor métricas em uma aplicação web, tornando-a observável e permitindo a monitoração e análise de seu desempenho.
