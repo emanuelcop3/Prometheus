@@ -128,10 +128,25 @@ groups:
           description: O coletor precisa aumentar a escala
 ```
 
-
 ## Conclusão
-Este projeto proporcionou uma compreensão prática do monitoramento do coletor OpenTelemetry usando métricas do Prometheus. Aprendemos a configurar e monitorar o coletor OTEL, bem como a criar dashboards informativos no Grafana para visualizar as métricas coletadas. Este conhecimento será valioso para implementar monitoramento em outros projetos futuros.
 
+Durante este projeto, adquiri valiosos insights sobre o monitoramento do coletor OpenTelemetry utilizando métricas do Prometheus. Os aprendizados obtidos podem ser divididos em duas áreas principais:
+
+### Aprendizados sobre Tecnologia
+
+- **Configuração e Operação do Coletor OTEL:** Aprofundei-me na configuração e operação do coletor OpenTelemetry, aprendendo a expor métricas e a utilizar suas funcionalidades para coleta e processamento de telemetria.
+
+- **Integração com o Prometheus e Grafana:** Compreendi a importância da integração entre o coletor OpenTelemetry, o Prometheus e o Grafana para monitoramento eficaz. Aprendi a configurar e utilizar essas ferramentas em conjunto para visualizar e analisar métricas de forma eficiente.
+
+### Aprendizados Gerais
+
+- **Importância do Monitoramento Proativo:** Reconheci a importância de adotar uma abordagem proativa para o monitoramento, identificando e resolvendo problemas antes que impactem os usuários finais.
+
+- **Valor do Monitoramento de Telemetria:** Entendi o valor do monitoramento de telemetria para garantir a saúde e o desempenho dos sistemas, permitindo uma tomada de decisão embasada em dados.
+
+- **Aplicabilidade do Conhecimento:** Visualizei como os conhecimentos adquiridos podem ser aplicados em projetos futuros, especialmente no contexto do projeto Inteli, onde o monitoramento eficaz é crucial para o sucesso do sistema. Inclusive, estou aplicando no meu estágio.
+
+Este projeto não apenas expandiu meu conhecimento técnico em monitoramento, mas também fortaleceu minha compreensão sobre a importância do monitoramento proativo e contínuo na manutenção de sistemas robustos e confiáveis.
 ## Documentação
 
 - https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/monitoring.md

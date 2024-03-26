@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xTjHjGMWUQp7vjeo9e57yXI6Om7Z9Oapxm0Zsbn2xso=",
+  "Source": "metricas-dotnet",
+  "BasePath": "_content/metricas-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
